@@ -21,7 +21,7 @@ public class Driver {
 	 * <p>
 	 * Thread safety reduces performance but it makes everything safe.
 	 *
-	 * @return
+	 * return
 	 */
 	public synchronized static WebDriver getDriver() {
 		//if webdriver object doesn't exist
